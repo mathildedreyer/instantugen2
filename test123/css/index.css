@@ -1,0 +1,1068 @@
+/* =========================================
+   INDEX.CSS
+   INSTANT UGEN
+========================================= */
+
+/* =========================================
+   HEADER
+========================================= */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 20;
+}
+
+/* =========================================
+   MAIN
+========================================= */
+
+main {
+  overflow: hidden;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+  position: relative;
+
+  width: 100%;
+  max-width: 1440px;
+
+  height: 1750px;
+
+  margin: 0 auto;
+}
+
+/* BLÅ FELT I HERO */
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+
+  top: 665px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 100vw;
+  height: 320px;
+
+  background-color: #3f7488;
+
+  z-index: 0;
+}
+
+/* HERO COLLAGE */
+
+.hero-image {
+  position: absolute;
+
+  top: 0;
+  left: -40px;
+
+  width: 1280px;
+
+  z-index: 3;
+
+  pointer-events: none;
+}
+
+.hero-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+/* HERO TEKST */
+
+.hero-content {
+  position: absolute;
+
+  top: 175px;
+  right: 35px;
+
+  width: 520px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  text-align: right;
+
+  z-index: 5;
+}
+
+/* HERO H1 */
+
+.hero-content h1 {
+  width: 100%;
+
+  margin: 0;
+
+  font-size: 6.5rem;
+  line-height: 0.72;
+
+  letter-spacing: -4px;
+
+  text-align: right;
+}
+
+.hero-content h1 span {
+  display: block;
+}
+
+/* HERO UNDERTEKST */
+
+.hero-content h4 {
+  width: 100%;
+
+  margin-top: 30px;
+
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 1.2;
+
+  text-align: right;
+}
+
+/* HERO DATO */
+
+.hero-date {
+  width: 100%;
+
+  margin-top: 15px;
+
+  font-size: 1.7rem;
+  font-weight: 600;
+
+  text-align: right;
+}
+
+/* RØD STREG */
+
+.hero-line {
+  width: 390px;
+  height: 3px;
+
+  margin-top: 10px;
+  margin-bottom: 18px;
+
+  background-color: #a93939;
+
+  transform: rotate(1deg);
+}
+
+/* HERO KNAP */
+
+.hero-button {
+  display: block;
+
+  width: 220px;
+
+  transition: transform 0.2s ease;
+}
+
+.hero-button img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.hero-button:hover {
+  transform: scale(1.05);
+}
+
+/* =========================================
+   HVAD ER INSTANT UGEN
+========================================= */
+
+.what-is {
+  position: relative;
+
+  width: 100%;
+  min-height: 950px;
+
+  padding-top: 100px;
+
+  background-color: #000;
+
+  overflow: visible;
+
+  z-index: 2;
+}
+
+/* INDHOLD */
+
+.what-is-inner {
+  position: relative;
+
+  width: 100%;
+  max-width: 1440px;
+
+  margin: 0 auto;
+
+  padding: 0 70px;
+
+  z-index: 3;
+}
+
+/* OVERSKRIFT */
+
+.what-title {
+  width: 720px;
+}
+
+.what-title h2 {
+  margin: 0;
+
+  font-family: "Source Serif 4", serif;
+
+  font-size: 4.5rem;
+  font-weight: 800;
+
+  line-height: 1;
+
+  color: white;
+}
+
+.what-title h2 span {
+  display: block;
+
+  margin-left: 70px;
+}
+
+/* GUL STREG */
+
+.yellow-line {
+  width: 610px;
+  height: 5px;
+
+  margin-top: 18px;
+  margin-left: 70px;
+
+  background-color: #cc9d22;
+
+  transform: rotate(0.5deg);
+}
+
+/* TEKST */
+
+.what-text {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 110px;
+
+  margin-top: 35px;
+
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.what-text-left {
+  max-width: 500px;
+}
+
+.what-text-right {
+  max-width: 460px;
+}
+
+.what-text p {
+  margin-bottom: 25px;
+
+  font-size: 1.1rem;
+
+  line-height: 1.25;
+}
+
+/* POLAROID HØJRE */
+
+.what-image {
+  position: absolute;
+
+  top: 470px;
+  right: 70px;
+
+  width: 380px;
+  height: auto;
+
+  z-index: 10;
+}
+
+/* BLÅ BJÆLKE */
+
+.what-blue-line {
+  position: absolute;
+
+  top: 690px;
+  left: 0;
+
+  width: 100%;
+  height: 55px;
+
+  background-color: #3f7488;
+
+  z-index: 1;
+}
+
+/* =========================================
+   HVORFOR INSTANT UGEN
+========================================= */
+
+.why-section {
+  position: relative;
+
+  width: 100%;
+
+  background-color: #000;
+
+  padding-top: 45px;
+  padding-bottom: 100px;
+
+  overflow: visible;
+
+  z-index: 0;
+}
+
+/* INDHOLD */
+
+.why-inner {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 0 45px;
+}
+
+/* =========================================
+   EDWIN + TEKST + 1948
+========================================= */
+
+.why-intro {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 410px 1fr;
+
+  column-gap: 70px;
+
+  align-items: center;
+
+  margin-bottom: 85px;
+}
+
+/* EDWIN */
+
+.edwin-image {
+  position: relative;
+
+  width: 410px;
+
+  left: -25px;
+
+  z-index: 3;
+}
+
+.edwin-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+/* HVORFOR TEKST */
+
+.why-intro-text {
+  position: relative;
+
+  max-width: 500px;
+
+  transform: translateY(-15px);
+}
+
+.why-intro-text h2 {
+  margin: 0 0 24px 0;
+
+  font-family: "Source Serif 4", serif;
+
+  font-size: 3.8rem;
+  font-weight: 800;
+
+  line-height: 0.92;
+
+  color: #a93939;
+}
+
+.why-intro-text p {
+  max-width: 470px;
+
+  margin: 0 0 18px 0;
+
+  font-size: 1rem;
+
+  line-height: 1.35;
+
+  color: white;
+}
+
+/* =========================================
+   ÅRSTAL
+========================================= */
+
+.year h3 {
+  margin: 0;
+
+  font-family: "Kalam", cursive;
+
+  font-size: 3rem;
+  font-weight: 400;
+
+  line-height: 1;
+
+  color: #a93939;
+}
+
+.year span {
+  display: block;
+
+  width: 85px;
+  height: 3px;
+
+  margin-top: 8px;
+
+  background-color: #a93939;
+}
+
+/* 1948 */
+
+.year-1948 {
+  position: absolute;
+
+  right: 10px;
+  bottom: 55px;
+
+  text-align: left;
+}
+
+.year-1948 h3 {
+  font-size: 3.4rem;
+}
+
+/* =========================================
+   TIMELINE GENERELT
+========================================= */
+
+.timeline-block {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  gap: 80px;
+
+  margin-bottom: 110px;
+}
+
+.timeline-text {
+  max-width: 430px;
+}
+
+.timeline-text p {
+  margin-top: 22px;
+
+  font-size: 1rem;
+
+  line-height: 1.35;
+}
+
+.timeline-text h4 {
+  margin-top: 22px;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  color: #a93939;
+}
+
+/* =========================================
+   1978
+========================================= */
+
+.timeline-1978 {
+  padding-left: 55px;
+
+  margin-top: -20px;
+}
+
+.cameras-image {
+  width: 440px;
+
+  justify-self: end;
+}
+
+/* =========================================
+   2001
+========================================= */
+
+.timeline-2001 {
+  grid-template-columns: 400px 1fr;
+}
+
+.old-camera-image {
+  width: 350px;
+}
+
+/* =========================================
+   NU
+========================================= */
+
+.timeline-now {
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.now-title {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 230px;
+  height: 100px;
+
+  margin-bottom: 35px;
+
+  border: 4px solid #a93939;
+
+  border-radius: 50%;
+
+  transform: rotate(-4deg);
+}
+
+.now-title span {
+  font-family: "Kalam", cursive;
+
+  font-size: 3rem;
+
+  color: #a93939;
+}
+
+.now-image {
+  width: 440px;
+
+  justify-self: end;
+}
+
+/* =========================================
+   BLÅ OVERGANG TIL INSPIRATION
+========================================= */
+
+.section-blue-divider {
+  position: relative;
+
+  width: 100%;
+  height: 55px;
+
+  background-color: #3f7488;
+
+  z-index: 1;
+}
+
+/* =========================================
+   INSPIRATION
+========================================= */
+
+.inspiration-section {
+  position: relative;
+
+  width: 100%;
+
+  min-height: 1450px;
+
+  padding-top: 75px;
+  padding-bottom: 100px;
+
+  background-color: #000;
+
+  overflow: visible;
+}
+
+/* =========================================
+   INSPIRATION INDHOLD
+========================================= */
+
+.inspiration-inner {
+  position: relative;
+
+  width: 100%;
+  max-width: 1200px;
+
+  min-height: 1300px;
+
+  margin: 0 auto;
+
+  padding: 0 45px;
+}
+
+/* =========================================
+   INSPIRATION OVERSKRIFT
+========================================= */
+
+.inspiration-heading {
+  position: relative;
+
+  width: 450px;
+
+  z-index: 5;
+}
+
+.inspiration-heading h2 {
+  margin: 0 0 10px 0;
+
+  font-family: "Source Serif 4", serif;
+
+  font-size: 4rem;
+  font-weight: 800;
+
+  line-height: 1;
+
+  color: white;
+}
+
+.inspiration-heading p {
+  width: 360px;
+
+  margin: 0;
+
+  line-height: 1.35;
+}
+
+/* =========================================
+   SAMLET INSPIRATION-BILLEDE
+========================================= */
+
+.inspiration-collage-image {
+  position: absolute;
+
+  /*
+    Hele billedet placeres som én enhed.
+    Toppen med candy-polaroiden overlapper
+    den blå bjælke som i prototypen.
+  */
+
+  top: -250px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 1050px;
+  max-width: none;
+
+  height: auto;
+
+  z-index: 3;
+
+  pointer-events: none;
+}
+
+/* =========================================
+   FÅ MERE INSPIRATION KNAP
+========================================= */
+
+.inspiration-button {
+  position: absolute;
+
+  right: 45px;
+  bottom: 20px;
+
+  display: block;
+
+  width: 275px;
+
+  z-index: 6;
+
+  transition: transform 0.2s ease;
+}
+
+.inspiration-button img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.inspiration-button:hover {
+  transform: scale(1.05);
+}
+
+/* =========================================
+   MOBIL
+   SAMME BREAKPOINT SOM GLOBAL.CSS
+========================================= */
+
+@media screen and (max-width: 800px) {
+  /* =======================================
+     HEADER
+  ======================================= */
+
+  header {
+    position: relative;
+  }
+
+  /* =======================================
+     HERO
+  ======================================= */
+
+  .hero {
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 70px;
+  }
+
+  .hero-content {
+    position: relative;
+
+    top: auto;
+    right: auto;
+
+    order: 1;
+
+    width: 100%;
+
+    padding: 30px 20px 20px;
+
+    align-items: flex-end;
+
+    text-align: right;
+  }
+
+  .hero-content h1 {
+    width: 100%;
+
+    font-size: 4rem;
+
+    line-height: 0.78;
+
+    letter-spacing: -2px;
+
+    text-align: right;
+  }
+
+  .hero-content h4 {
+    width: 100%;
+
+    margin-top: 20px;
+
+    font-size: 1.3rem;
+
+    text-align: right;
+  }
+
+  .hero-date {
+    width: 100%;
+
+    margin-top: 12px;
+
+    font-size: 1.4rem;
+
+    text-align: right;
+  }
+
+  .hero-line {
+    width: 75%;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .hero-button {
+    width: 200px;
+  }
+
+  .hero-image {
+    position: relative;
+
+    top: auto;
+    left: auto;
+
+    order: 2;
+
+    width: 145%;
+
+    margin-top: -20px;
+    margin-left: -25%;
+  }
+
+  .hero::before {
+    top: 650px;
+
+    width: 100vw;
+    height: 260px;
+  }
+
+  /* =======================================
+     HVAD ER
+  ======================================= */
+
+  .what-is {
+    min-height: auto;
+
+    padding-top: 60px;
+    padding-bottom: 200px;
+
+    overflow: visible;
+  }
+
+  .what-is-inner {
+    padding: 0 20px;
+  }
+
+  .what-title {
+    width: 100%;
+  }
+
+  .what-title h2 {
+    font-size: 2.7rem;
+  }
+
+  .what-title h2 span {
+    margin-left: 30px;
+  }
+
+  .yellow-line {
+    width: 85%;
+    height: 4px;
+
+    margin-top: 12px;
+    margin-left: 30px;
+  }
+
+  .what-text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0;
+
+    margin-top: 30px;
+
+    padding: 0 20px 0 30px;
+  }
+
+  .what-text-left,
+  .what-text-right {
+    max-width: 100%;
+  }
+
+  .what-text p {
+    margin-bottom: 22px;
+
+    font-size: 1rem;
+  }
+
+  .what-image {
+    position: relative;
+
+    top: auto;
+    right: auto;
+
+    display: block;
+
+    width: 260px;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 15px;
+
+    z-index: 10;
+  }
+
+  .what-blue-line {
+    top: auto;
+    bottom: 80px;
+
+    height: 40px;
+
+    z-index: 1;
+  }
+
+  /* =======================================
+     HVORFOR
+  ======================================= */
+
+  .why-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .why-inner {
+    padding: 0 25px;
+  }
+
+  .why-intro {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 30px;
+
+    margin-bottom: 75px;
+  }
+
+  .edwin-image {
+    width: 270px;
+
+    left: 0;
+
+    align-self: flex-start;
+  }
+
+  .why-intro-text {
+    width: 100%;
+
+    transform: none;
+  }
+
+  .why-intro-text h2 {
+    font-size: 3rem;
+  }
+
+  .year-1948 {
+    position: relative;
+
+    right: auto;
+    bottom: auto;
+
+    align-self: flex-end;
+
+    margin-top: -10px;
+  }
+
+  .year-1948 h3 {
+    font-size: 2.6rem;
+  }
+
+  /* =======================================
+     TIMELINE
+  ======================================= */
+
+  .timeline-block {
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+
+    margin-bottom: 90px;
+  }
+
+  .timeline-1978 {
+    padding-left: 0;
+
+    margin-top: 0;
+  }
+
+  .timeline-2001 {
+    flex-direction: column-reverse;
+  }
+
+  .timeline-text {
+    max-width: 100%;
+  }
+
+  .cameras-image {
+    width: 85%;
+
+    align-self: flex-end;
+  }
+
+  .old-camera-image {
+    width: 75%;
+
+    align-self: flex-start;
+  }
+
+  .now-image {
+    width: 90%;
+
+    align-self: flex-end;
+  }
+
+  /* =======================================
+     BLÅ SKILLELINJE
+  ======================================= */
+
+  .section-blue-divider {
+    height: 40px;
+  }
+
+  /* =======================================
+     INSPIRATION
+  ======================================= */
+
+  .inspiration-section {
+    min-height: auto;
+
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .inspiration-inner {
+    min-height: 850px;
+
+    padding: 0 20px;
+  }
+
+  .inspiration-heading {
+    width: 100%;
+
+    position: relative;
+
+    z-index: 5;
+  }
+
+  .inspiration-heading h2 {
+    font-size: 3rem;
+  }
+
+  .inspiration-heading p {
+    width: 280px;
+  }
+
+  .inspiration-collage-image {
+    top: -90px;
+    left: 50%;
+
+    width: 620px;
+
+    transform: translateX(-50%);
+
+    z-index: 3;
+  }
+
+  .inspiration-button {
+    position: absolute;
+
+    right: 20px;
+    bottom: 10px;
+
+    width: 220px;
+  }
+}
